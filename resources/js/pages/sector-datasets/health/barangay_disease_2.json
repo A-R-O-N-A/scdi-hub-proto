@@ -1,0 +1,36 @@
+{
+  "filename": "barangay_disease_2.json",
+  "row_count": 3,
+  "columns": [
+    "Barangay",
+    "Dengue",
+    "Measles",
+    "Covid"
+  ],
+  "column_types": {
+    "Barangay": "categorical",
+    "Dengue": "numerical",
+    "Measles": "numerical",
+    "Covid": "numerical"
+  },
+  "data": [
+    {
+      "Barangay": "Bukang Liwayway",
+      "Dengue": 9,
+      "Measles": 4,
+      "Covid": 6
+    },
+    {
+      "Barangay": "Bagong Sikat",
+      "Dengue": 12,
+      "Measles": 3,
+      "Covid": 8
+    },
+    {
+      "Barangay": "Bantug",
+      "Dengue": 6,
+      "Measles": 2,
+      "Covid": 5
+    }
+  ]
+}

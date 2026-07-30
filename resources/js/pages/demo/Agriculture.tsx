@@ -50,13 +50,13 @@ export default function Agriculture() {
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
-                    <Card className="p-4 xl:col-span-8">
+                    {/* <Card className="p-4 xl:col-span-8">
                         <BarPlot
                             dataset={agriPestDisease}
                             labelField={"Pest/Disease"}
                             valueField={"Crop Loss (%)"}
                         />
-                    </Card>
+                    </Card> */}
 
                     <Card className="p-6 xl:col-span-12">
                         <h3 className="text-lg font-semibold">AI Text Interpretation of Data</h3>

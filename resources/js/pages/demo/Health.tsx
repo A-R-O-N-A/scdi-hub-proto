@@ -1,5 +1,7 @@
 import BarPlot from "@/components/data-vis/generics/BarPlot";
 import PieChartV2 from "@/components/data-vis/generics/PieChartV2";
+import BarPlotGroup from '@/components/data-vis/generics/BarPlotGroup'
+
 import { Card } from "@/components/ui/card";
 import { Head } from "@inertiajs/react";
 
@@ -7,6 +9,7 @@ import healthBarangay from "@/pages/sector-datasets/health/barangay_info.xlsx.js
 import healthDisease from "@/pages/sector-datasets/health/barangay_disease.xlsx.json";
 import healthVacc from "@/pages/sector-datasets/health/barangay_vacc.xlsx.json";
 import healthClinicWorkers from "@/pages/sector-datasets/health/clinic_workforce.xlsx.json";
+import healthDisease2 from '@/pages/sector-datasets/health/barangay_disease_2.json'
 
 export default function Health() {
     return (
@@ -15,6 +18,16 @@ export default function Health() {
 
             <div className="flex h-full flex-1 flex-col gap-6 rounded-xl p-4">
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
+
+                    <Card className='p-4 xl:col-span-12'>
+
+                        <BarPlotGroup
+                            dataset={healthDisease2}
+                            labelField={'Barangay'}
+                            valueFields={['Dengue', 'Measles', 'Covid']}
+                        />
+                    </Card>
+
                     <Card className="p-4 xl:col-span-6">
                         <PieChartV2
                             dataset={healthClinicWorkers}
@@ -37,16 +50,19 @@ export default function Health() {
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
+{/* 
                     <Card className="p-4 xl:col-span-6">
                         <BarPlot dataset={healthDisease} labelField={"Barangay"} valueField={"Cases"} />
                     </Card>
 
                     <Card className="p-4 xl:col-span-6">
                         <BarPlot dataset={healthVacc} labelField={"Barangay"} valueField={"Administered Doses"} />
-                    </Card>
+                    </Card> */}
+
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
+
                     <Card className="p-4 xl:col-span-6">
                         <BarPlot dataset={healthVacc} labelField={"Vaccine Type"} valueField={"Administered Doses"} />
                     </Card>
@@ -54,12 +70,13 @@ export default function Health() {
                     <Card className="p-4 xl:col-span-6">
                         <BarPlot dataset={healthBarangay} labelField={"Name"} valueField={"Clinic count"} />
                     </Card>
+
                 </div>
 
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
-                    <Card className="p-4 xl:col-span-8">
+                    {/* <Card className="p-4 xl:col-span-8">
                         <BarPlot dataset={healthClinicWorkers} labelField={"Clinic"} valueField={"Bed capacity"} />
-                    </Card>
+                    </Card> */}
 
                     <Card className="p-6 xl:col-span-12">
                         <h3 className="text-lg font-semibold">AI Text Interpretation of Data</h3>
