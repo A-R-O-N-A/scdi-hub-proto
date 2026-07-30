@@ -52,16 +52,30 @@ export default function EnvironmentResources() {
                     <Card className="p-6 xl:col-span-12">
                         <h3 className="text-lg font-semibold">AI Text Interpretation of Data</h3>
                         <p className="mt-3 text-sm leading-6 text-muted-foreground">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.
+                            1. Barangay to CO Level
+                            Data source: ENRAirQuality.xlsx
+                            Barangay X: 0.5 ppm
+                            Barangay Y: 0.7 ppm
+                            Summary: Barangay Y shows a 40% higher Carbon Monoxide (CO) level compared to Barangay X.
+                            2. Barangay to Water Temperature
+                            Data source: ENRWaterQuality.xlsx
+                            Barangay X (Baliwag River): 27°C
+                            Barangay Z (Local Creeks & Watersheds): 26°C
+                            Summary: The water temperature in Barangay X is 1°C higher than in Barangay Z.
+                            3. Barangay to Air Quality
+                            Data source: ENRMonitoring.xlsx
+                            (Measured by Air Quality Index - AQI)
+                            Bantug (Record ID EM001): 45 AQI
+                            Bagong Sikat (Record ID EM002): 60 AQI
+                            Summary: Bagong Sikat has a higher AQI (60) compared to Bantug (45). In standard air quality ratings, lower values are generally better, indicating that Bantug currently has cleaner air than Bagong Sikat.
+                            Note on Data Consistency:
+                            Please be aware that the ENRAirQuality file refers to "Barangay X" and "Barangay Y," while the ENRMonitoring file refers to "Bantug" and "Bagong Sikat." The comparisons above are grouped by the specific naming conventions used in their respective files.
                         </p>
-                        <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                        {/* <p className="mt-3 text-sm leading-6 text-muted-foreground">
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        </p> */}
                     </Card>
 
                     {/* <Card className="p-6 xl:col-span-7 min-h-44">

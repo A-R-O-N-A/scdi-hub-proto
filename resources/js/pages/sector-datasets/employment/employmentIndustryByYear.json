@@ -1,0 +1,90 @@
+{
+  "filename": "employmentIndustryByYear.xlsx",
+  "row_count": 12,
+  "columns": [
+    "Male",
+    "Female",
+    "Industry Sector",
+    "Year"
+  ],
+  "column_types": {
+    "Male": "numerical",
+    "Female": "numerical",
+    "Industry Sector": "categorical",
+    "Year": "numerical"
+  },
+  "data": [
+    {
+      "Male": 760,
+      "Female": 440,
+      "Industry Sector": "Agriculture",
+      "Year": 2020
+    },
+    {
+      "Male": 790,
+      "Female": 470,
+      "Industry Sector": "Agriculture",
+      "Year": 2021
+    },
+    {
+      "Male": 820,
+      "Female": 500,
+      "Industry Sector": "Agriculture",
+      "Year": 2022
+    },
+    {
+      "Male": 850,
+      "Female": 530,
+      "Industry Sector": "Agriculture",
+      "Year": 2023
+    },
+    {
+      "Male": 500,
+      "Female": 290,
+      "Industry Sector": "Manufacturing",
+      "Year": 2020
+    },
+    {
+      "Male": 525,
+      "Female": 305,
+      "Industry Sector": "Manufacturing",
+      "Year": 2021
+    },
+    {
+      "Male": 550,
+      "Female": 325,
+      "Industry Sector": "Manufacturing",
+      "Year": 2022
+    },
+    {
+      "Male": 575,
+      "Female": 345,
+      "Industry Sector": "Manufacturing",
+      "Year": 2023
+    },
+    {
+      "Male": 280,
+      "Female": 370,
+      "Industry Sector": "Retail and Trade",
+      "Year": 2020
+    },
+    {
+      "Male": 295,
+      "Female": 385,
+      "Industry Sector": "Retail and Trade",
+      "Year": 2021
+    },
+    {
+      "Male": 310,
+      "Female": 400,
+      "Industry Sector": "Retail and Trade",
+      "Year": 2022
+    },
+    {
+      "Male": 330,
+      "Female": 420,
+      "Industry Sector": "Retail and Trade",
+      "Year": 2023
+    }
+  ]
+}
