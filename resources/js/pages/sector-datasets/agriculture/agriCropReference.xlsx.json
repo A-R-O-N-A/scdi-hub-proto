@@ -1,0 +1,54 @@
+{
+  "filename": "agriCropReference.xlsx",
+  "row_count": 4,
+  "columns": [
+    "Crop ID",
+    "Crop Type",
+    "Crop Variety",
+    "Crop Type.1",
+    "Crop Category",
+    "Growing Days"
+  ],
+  "column_types": {
+    "Crop ID": "categorical",
+    "Crop Type": "categorical",
+    "Crop Variety": "categorical",
+    "Crop Type.1": "categorical",
+    "Crop Category": "categorical",
+    "Growing Days": "numerical"
+  },
+  "data": [
+    {
+      "Crop ID": "C001",
+      "Crop Type": "Rice",
+      "Crop Variety": "Sl-8",
+      "Crop Type.1": "Palay",
+      "Crop Category": "Hybrid",
+      "Growing Days": 120
+    },
+    {
+      "Crop ID": null,
+      "Crop Type": null,
+      "Crop Variety": null,
+      "Crop Type.1": null,
+      "Crop Category": null,
+      "Growing Days": null
+    },
+    {
+      "Crop ID": "C002",
+      "Crop Type": "Onion",
+      "Crop Variety": "Red Creole",
+      "Crop Type.1": "Onion",
+      "Crop Category": "Bulb",
+      "Growing Days": 95
+    },
+    {
+      "Crop ID": "C003",
+      "Crop Type": "Corn",
+      "Crop Variety": "Sweet Corn",
+      "Crop Type.1": "Corn",
+      "Crop Category": "Vegetable",
+      "Growing Days": 85
+    }
+  ]
+}

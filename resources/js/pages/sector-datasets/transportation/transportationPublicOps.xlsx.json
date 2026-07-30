@@ -1,0 +1,46 @@
+{
+  "filename": "transportationPublicOps.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Route ID",
+    "Route Name",
+    "Vehicle Type",
+    "Operating Units",
+    "Passenger Count",
+    "Average Waiting Time (min)",
+    "Trip Frequency",
+    "Date"
+  ],
+  "column_types": {
+    "Route ID": "categorical",
+    "Route Name": "categorical",
+    "Vehicle Type": "categorical",
+    "Operating Units": "numerical",
+    "Passenger Count": "numerical",
+    "Average Waiting Time (min)": "numerical",
+    "Trip Frequency": "numerical",
+    "Date": "datetime"
+  },
+  "data": [
+    {
+      "Route ID": "R001",
+      "Route Name": "CLSU–Market",
+      "Vehicle Type": "Jeepney",
+      "Operating Units": 18,
+      "Passenger Count": 1230,
+      "Average Waiting Time (min)": 12,
+      "Trip Frequency": 65,
+      "Date": "2026-07-01T00:00:00"
+    },
+    {
+      "Route ID": "R002",
+      "Route Name": "Poblacion Loop",
+      "Vehicle Type": "Tricycle",
+      "Operating Units": 35,
+      "Passenger Count": 760,
+      "Average Waiting Time (min)": 5,
+      "Trip Frequency": 120,
+      "Date": "2026-07-01T00:00:00"
+    }
+  ]
+}

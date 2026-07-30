@@ -1,0 +1,30 @@
+{
+  "filename": "educationTertiaryScholarship.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Barangay",
+    "Tertiary Graduates",
+    "Scholarships Offered",
+    "Academic Year"
+  ],
+  "column_types": {
+    "Barangay": "categorical",
+    "Tertiary Graduates": "numerical",
+    "Scholarships Offered": "numerical",
+    "Academic Year": "categorical"
+  },
+  "data": [
+    {
+      "Barangay": "Poblacion East",
+      "Tertiary Graduates": 82,
+      "Scholarships Offered": 25,
+      "Academic Year": "2026–2027"
+    },
+    {
+      "Barangay": "Poblacion West",
+      "Tertiary Graduates": 104,
+      "Scholarships Offered": 38,
+      "Academic Year": "2026–2027"
+    }
+  ]
+}

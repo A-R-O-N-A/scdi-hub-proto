@@ -1,0 +1,34 @@
+{
+  "filename": "educationClassroomInfra.xlsx",
+  "row_count": 2,
+  "columns": [
+    "School ID",
+    "Functional Classrooms",
+    "Classroom Capacity",
+    "Computer Laboratories",
+    "Internet Available"
+  ],
+  "column_types": {
+    "School ID": "categorical",
+    "Functional Classrooms": "numerical",
+    "Classroom Capacity": "numerical",
+    "Computer Laboratories": "numerical",
+    "Internet Available": "categorical"
+  },
+  "data": [
+    {
+      "School ID": "S001",
+      "Functional Classrooms": 38,
+      "Classroom Capacity": 1520,
+      "Computer Laboratories": 1,
+      "Internet Available": "Yes"
+    },
+    {
+      "School ID": "S002",
+      "Functional Classrooms": 55,
+      "Classroom Capacity": 2200,
+      "Computer Laboratories": 2,
+      "Internet Available": "Yes"
+    }
+  ]
+}

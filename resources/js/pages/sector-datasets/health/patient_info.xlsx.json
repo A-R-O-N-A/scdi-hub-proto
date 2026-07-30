@@ -1,0 +1,54 @@
+{
+  "filename": "patient_info.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Patient ID",
+    "Visit Date",
+    "Address",
+    "Age",
+    "Height cm",
+    "Sex",
+    "Purpose of Visit",
+    "Illness",
+    "Severity",
+    "Clinic location"
+  ],
+  "column_types": {
+    "Patient ID": "categorical",
+    "Visit Date": "datetime",
+    "Address": "categorical",
+    "Age": "numerical",
+    "Height cm": "numerical",
+    "Sex": "categorical",
+    "Purpose of Visit": "categorical",
+    "Illness": "categorical",
+    "Severity": "categorical",
+    "Clinic location": "categorical"
+  },
+  "data": [
+    {
+      "Patient ID": "PT001",
+      "Visit Date": "2026-07-01T00:00:00",
+      "Address": "Bagong Sikat",
+      "Age": 28,
+      "Height cm": 156,
+      "Sex": "Female",
+      "Purpose of Visit": "Emergency",
+      "Illness": "Diarrhea",
+      "Severity": "Severe",
+      "Clinic location": "Fernandez Health"
+    },
+    {
+      "Patient ID": "PT002",
+      "Visit Date": "2026-07-01T00:00:00",
+      "Address": "Bantug",
+      "Age": 35,
+      "Height cm": 160,
+      "Sex": "Male",
+      "Purpose of Visit": "Checkup",
+      "Illness": "Dizziness",
+      "Severity": "Moderate",
+      "Clinic location": "Health General"
+    }
+  ]
+}

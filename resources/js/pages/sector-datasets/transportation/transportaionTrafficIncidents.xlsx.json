@@ -1,0 +1,50 @@
+{
+  "filename": "transportaionTrafficIncidents.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Incident ID",
+    "Date",
+    "Time",
+    "Road Segment",
+    "Incident Type",
+    "Severity",
+    "Vehicles Involved",
+    "Casualties",
+    "Cleared Time"
+  ],
+  "column_types": {
+    "Incident ID": "categorical",
+    "Date": "datetime",
+    "Time": "datetime",
+    "Road Segment": "categorical",
+    "Incident Type": "categorical",
+    "Severity": "categorical",
+    "Vehicles Involved": "numerical",
+    "Casualties": "numerical",
+    "Cleared Time": "datetime"
+  },
+  "data": [
+    {
+      "Incident ID": "I001",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "09:15:00",
+      "Road Segment": "Maharlika Hwy",
+      "Incident Type": "Collision",
+      "Severity": "High",
+      "Vehicles Involved": 3,
+      "Casualties": 1,
+      "Cleared Time": "10:30:00"
+    },
+    {
+      "Incident ID": "I002",
+      "Date": "2026-07-03T00:00:00",
+      "Time": "04:40:00",
+      "Road Segment": "Burgos St",
+      "Incident Type": "Road Obstruction",
+      "Severity": "Low",
+      "Vehicles Involved": 1,
+      "Casualties": 0,
+      "Cleared Time": "05:05:00"
+    }
+  ]
+}

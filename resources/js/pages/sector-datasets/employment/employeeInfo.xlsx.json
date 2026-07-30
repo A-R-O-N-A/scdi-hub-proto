@@ -1,0 +1,50 @@
+{
+  "filename": "employeeInfo.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Employee ID",
+    "Barangay",
+    "Age",
+    "Gender",
+    "Employment Status",
+    "Occupation",
+    "Industry Sector",
+    "Employer Type",
+    "Monthly Income"
+  ],
+  "column_types": {
+    "Employee ID": "categorical",
+    "Barangay": "categorical",
+    "Age": "numerical",
+    "Gender": "categorical",
+    "Employment Status": "categorical",
+    "Occupation": "categorical",
+    "Industry Sector": "categorical",
+    "Employer Type": "categorical",
+    "Monthly Income": "numerical"
+  },
+  "data": [
+    {
+      "Employee ID": "E001",
+      "Barangay": "Poblacion East",
+      "Age": 29,
+      "Gender": "Female",
+      "Employment Status": "Employed",
+      "Occupation": "Administrative Assistant",
+      "Industry Sector": "Government",
+      "Employer Type": "Public",
+      "Monthly Income": 25000
+    },
+    {
+      "Employee ID": "E002",
+      "Barangay": "Bantug",
+      "Age": 35,
+      "Gender": "Male",
+      "Employment Status": "Self-employed",
+      "Occupation": "Farmer",
+      "Industry Sector": "Agriculture",
+      "Employer Type": "Private",
+      "Monthly Income": 18000
+    }
+  ]
+}

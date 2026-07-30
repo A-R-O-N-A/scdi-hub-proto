@@ -1,0 +1,51 @@
+{
+  "filename": "employmentJobSeeker.xlsx",
+  "row_count": 3,
+  "columns": [
+    "Applicant ID",
+    "Barangay",
+    "Age",
+    "Gender",
+    "Highest Educational",
+    "Preferred Occupation",
+    "Employment Status"
+  ],
+  "column_types": {
+    "Applicant ID": "categorical",
+    "Barangay": "categorical",
+    "Age": "numerical",
+    "Gender": "categorical",
+    "Highest Educational": "categorical",
+    "Preferred Occupation": "categorical",
+    "Employment Status": "categorical"
+  },
+  "data": [
+    {
+      "Applicant ID": null,
+      "Barangay": null,
+      "Age": null,
+      "Gender": null,
+      "Highest Educational": "Attainment",
+      "Preferred Occupation": null,
+      "Employment Status": null
+    },
+    {
+      "Applicant ID": "A001",
+      "Barangay": "Bagong Sikat",
+      "Age": 24,
+      "Gender": "Female",
+      "Highest Educational": "College graduate",
+      "Preferred Occupation": "Administrative Assistant",
+      "Employment Status": "Unemployed"
+    },
+    {
+      "Applicant ID": "A002",
+      "Barangay": "Padalla",
+      "Age": 31,
+      "Gender": "Male",
+      "Highest Educational": "Senior High School",
+      "Preferred Occupation": "Service Crew",
+      "Employment Status": "Seeking Employment"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "filename": "ENRWaterQuality.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Sample ID",
+    "Record ID",
+    "Water Body",
+    "Barangay",
+    "Date",
+    "pH",
+    "Turbidity (NTU)",
+    "Dissolved Oxygen",
+    "Water Temperature"
+  ],
+  "column_types": {
+    "Sample ID": "categorical",
+    "Record ID": "categorical",
+    "Water Body": "categorical",
+    "Barangay": "categorical",
+    "Date": "datetime",
+    "pH": "numerical",
+    "Turbidity (NTU)": "numerical",
+    "Dissolved Oxygen": "numerical",
+    "Water Temperature": "numerical"
+  },
+  "data": [
+    {
+      "Sample ID": "WQ001",
+      "Record ID": "EM001",
+      "Water Body": "Baliwag River",
+      "Barangay": "Barangay X",
+      "Date": "2026-07-01T00:00:00",
+      "pH": 7.2,
+      "Turbidity (NTU)": 12,
+      "Dissolved Oxygen": 6.5,
+      "Water Temperature": 27
+    },
+    {
+      "Sample ID": "WQ003",
+      "Record ID": "EM003",
+      "Water Body": "Local Creeks & Watersheds",
+      "Barangay": "Barangay Z",
+      "Date": "2026-07-02T00:00:00",
+      "pH": 7.4,
+      "Turbidity (NTU)": 9,
+      "Dissolved Oxygen": 7.1,
+      "Water Temperature": 26
+    }
+  ]
+}

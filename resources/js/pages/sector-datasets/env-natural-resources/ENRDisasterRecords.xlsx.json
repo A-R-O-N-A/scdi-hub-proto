@@ -1,0 +1,46 @@
+{
+  "filename": "ENRDisasterRecords.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Hazard ID",
+    "Flood Location",
+    "Landslide Location",
+    "Date",
+    "Severity",
+    "Barangay",
+    "Affected Households",
+    "Casualties"
+  ],
+  "column_types": {
+    "Hazard ID": "categorical",
+    "Flood Location": "categorical",
+    "Landslide Location": "categorical",
+    "Date": "datetime",
+    "Severity": "categorical",
+    "Barangay": "categorical",
+    "Affected Households": "numerical",
+    "Casualties": "numerical"
+  },
+  "data": [
+    {
+      "Hazard ID": "DH001",
+      "Flood Location": "Riverside Area",
+      "Landslide Location": "Bukang Liwayway",
+      "Date": "2026-07-01T00:00:00",
+      "Severity": "Moderate",
+      "Barangay": "Bantug",
+      "Affected Households": 25,
+      "Casualties": 0
+    },
+    {
+      "Hazard ID": "DH002",
+      "Flood Location": "Riverside",
+      "Landslide Location": "Hillside Zone",
+      "Date": "2026-07-01T00:00:00",
+      "Severity": "Severe",
+      "Barangay": "Bagong Sikat",
+      "Affected Households": 12,
+      "Casualties": 1
+    }
+  ]
+}

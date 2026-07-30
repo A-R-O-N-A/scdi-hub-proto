@@ -1,0 +1,30 @@
+{
+  "filename": "Accomodation.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Hotel",
+    "Rooms Available",
+    "Rooms Occupied",
+    "Rate per Night"
+  ],
+  "column_types": {
+    "Hotel": "categorical",
+    "Rooms Available": "numerical",
+    "Rooms Occupied": "numerical",
+    "Rate per Night": "numerical"
+  },
+  "data": [
+    {
+      "Hotel": "Hotel A",
+      "Rooms Available": 50,
+      "Rooms Occupied": 42,
+      "Rate per Night": 1800
+    },
+    {
+      "Hotel": "Hotel B",
+      "Rooms Available": 35,
+      "Rooms Occupied": 27,
+      "Rate per Night": 1500
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "filename": "clinic_workforce.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Clinic  ID",
+    "Clinic",
+    "Barangay",
+    "Doctors",
+    "Nurses",
+    "Midwives",
+    "Bed capacity"
+  ],
+  "column_types": {
+    "Clinic  ID": "categorical",
+    "Clinic": "categorical",
+    "Barangay": "categorical",
+    "Doctors": "numerical",
+    "Nurses": "numerical",
+    "Midwives": "numerical",
+    "Bed capacity": "numerical"
+  },
+  "data": [
+    {
+      "Clinic  ID": "CW001",
+      "Clinic": "Fernandez Health",
+      "Barangay": "Bagong Sikat",
+      "Doctors": 4,
+      "Nurses": 5,
+      "Midwives": 2,
+      "Bed capacity": 12
+    },
+    {
+      "Clinic  ID": "CW002",
+      "Clinic": "Health General",
+      "Barangay": "Bantug",
+      "Doctors": 2,
+      "Nurses": 4,
+      "Midwives": 1,
+      "Bed capacity": 8
+    }
+  ]
+}

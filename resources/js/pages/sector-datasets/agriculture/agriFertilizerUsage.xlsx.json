@@ -1,0 +1,60 @@
+{
+  "filename": "agriFertilizerUsage.xlsx",
+  "row_count": 4,
+  "columns": [
+    "Application ID",
+    "Barangay",
+    "Crop",
+    "Hectares",
+    "Fertilizer Type",
+    "Fertilizer amount (kg)",
+    "Harvest Yield (kg)"
+  ],
+  "column_types": {
+    "Application ID": "categorical",
+    "Barangay": "categorical",
+    "Crop": "categorical",
+    "Hectares": "numerical",
+    "Fertilizer Type": "categorical",
+    "Fertilizer amount (kg)": "numerical",
+    "Harvest Yield (kg)": "numerical"
+  },
+  "data": [
+    {
+      "Application ID": "AF001",
+      "Barangay": "Bantug",
+      "Crop": "Rice",
+      "Hectares": 2,
+      "Fertilizer Type": "Urea",
+      "Fertilizer amount (kg)": 50,
+      "Harvest Yield (kg)": 3200
+    },
+    {
+      "Application ID": null,
+      "Barangay": null,
+      "Crop": null,
+      "Hectares": null,
+      "Fertilizer Type": null,
+      "Fertilizer amount (kg)": null,
+      "Harvest Yield (kg)": null
+    },
+    {
+      "Application ID": "AF002",
+      "Barangay": "Bagong Sikat",
+      "Crop": "Onion",
+      "Hectares": 5,
+      "Fertilizer Type": "Organic Compost",
+      "Fertilizer amount (kg)": 80,
+      "Harvest Yield (kg)": 7100
+    },
+    {
+      "Application ID": "AF003",
+      "Barangay": "Bagong Sikat",
+      "Crop": "Corn",
+      "Hectares": 1,
+      "Fertilizer Type": "14-14-14",
+      "Fertilizer amount (kg)": 30,
+      "Harvest Yield (kg)": 1800
+    }
+  ]
+}

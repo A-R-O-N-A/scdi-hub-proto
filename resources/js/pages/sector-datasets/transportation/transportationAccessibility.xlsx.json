@@ -1,0 +1,38 @@
+{
+  "filename": "transportationAccessibility.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Barangay",
+    "Population",
+    "Nearest Transport Route",
+    "Distance to Stop (m)",
+    "Available Vehicle Types",
+    "Daily Trips"
+  ],
+  "column_types": {
+    "Barangay": "categorical",
+    "Population": "numerical",
+    "Nearest Transport Route": "categorical",
+    "Distance to Stop (m)": "numerical",
+    "Available Vehicle Types": "categorical",
+    "Daily Trips": "numerical"
+  },
+  "data": [
+    {
+      "Barangay": "Poblacion",
+      "Population": 12350,
+      "Nearest Transport Route": "R001",
+      "Distance to Stop (m)": 180,
+      "Available Vehicle Types": "Jeepney, Tricycle",
+      "Daily Trips": 185
+    },
+    {
+      "Barangay": "San Juan",
+      "Population": 4860,
+      "Nearest Transport Route": "R004",
+      "Distance to Stop (m)": 650,
+      "Available Vehicle Types": "Tricycle",
+      "Daily Trips": 54
+    }
+  ]
+}

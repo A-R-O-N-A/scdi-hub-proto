@@ -1,0 +1,46 @@
+{
+  "filename": "ENRMonitoring.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Record ID",
+    "Barangay",
+    "Date",
+    "Time",
+    "Air Quality (AQI)",
+    "Water Quality Index",
+    "Noise Level (dB)",
+    "Temperature (°C)"
+  ],
+  "column_types": {
+    "Record ID": "categorical",
+    "Barangay": "categorical",
+    "Date": "datetime",
+    "Time": "datetime",
+    "Air Quality (AQI)": "numerical",
+    "Water Quality Index": "numerical",
+    "Noise Level (dB)": "numerical",
+    "Temperature (°C)": "numerical"
+  },
+  "data": [
+    {
+      "Record ID": "EM001",
+      "Barangay": "Bantug",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "08:00:00",
+      "Air Quality (AQI)": 45,
+      "Water Quality Index": 82,
+      "Noise Level (dB)": 55,
+      "Temperature (°C)": 31
+    },
+    {
+      "Record ID": "EM002",
+      "Barangay": "Bagong Sikat",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "09:00:00",
+      "Air Quality (AQI)": 60,
+      "Water Quality Index": 75,
+      "Noise Level (dB)": 62,
+      "Temperature (°C)": 32
+    }
+  ]
+}

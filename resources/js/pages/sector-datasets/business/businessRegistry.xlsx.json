@@ -1,0 +1,54 @@
+{
+  "filename": "businessRegistry.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Business ID",
+    "Business Name",
+    "Barangay",
+    "Industry",
+    "Business Size",
+    "Registration Date",
+    "Business Status",
+    "Employees",
+    "Annual Revenue",
+    "Permit Status"
+  ],
+  "column_types": {
+    "Business ID": "categorical",
+    "Business Name": "categorical",
+    "Barangay": "categorical",
+    "Industry": "categorical",
+    "Business Size": "categorical",
+    "Registration Date": "datetime",
+    "Business Status": "categorical",
+    "Employees": "numerical",
+    "Annual Revenue": "numerical",
+    "Permit Status": "categorical"
+  },
+  "data": [
+    {
+      "Business ID": "B001",
+      "Business Name": "ABC Grocery",
+      "Barangay": "Poblacion East",
+      "Industry": "Retail",
+      "Business Size": "Micro",
+      "Registration Date": "2022-05-10T00:00:00",
+      "Business Status": "Active",
+      "Employees": 6,
+      "Annual Revenue": 1800000,
+      "Permit Status": "Valid"
+    },
+    {
+      "Business ID": "B002",
+      "Business Name": "XYZ Café",
+      "Barangay": "Bagong Sikat",
+      "Industry": "Food Services",
+      "Business Size": "Small",
+      "Registration Date": "2024-01-15T00:00:00",
+      "Business Status": "Active",
+      "Employees": 12,
+      "Annual Revenue": 3200000,
+      "Permit Status": "Valid"
+    }
+  ]
+}

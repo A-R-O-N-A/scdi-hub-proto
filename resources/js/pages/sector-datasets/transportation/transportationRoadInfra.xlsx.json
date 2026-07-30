@@ -1,0 +1,42 @@
+{
+  "filename": "transportationRoadInfra.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Road Segment",
+    "Barangay",
+    "Road Length (km)",
+    "Road Type",
+    "Road Condition Rating",
+    "No. of Lanes",
+    "Last Maintenance Date"
+  ],
+  "column_types": {
+    "Road Segment": "categorical",
+    "Barangay": "categorical",
+    "Road Length (km)": "numerical",
+    "Road Type": "categorical",
+    "Road Condition Rating": "categorical",
+    "No. of Lanes": "numerical",
+    "Last Maintenance Date": "datetime"
+  },
+  "data": [
+    {
+      "Road Segment": "Maharlika Hwy",
+      "Barangay": "Poblacion",
+      "Road Length (km)": 3.4,
+      "Road Type": "National",
+      "Road Condition Rating": "Good",
+      "No. of Lanes": 4,
+      "Last Maintenance Date": "2025-09-15T00:00:00"
+    },
+    {
+      "Road Segment": "Burgos St",
+      "Barangay": "San Juan",
+      "Road Length (km)": 1.2,
+      "Road Type": "Municipal",
+      "Road Condition Rating": "Fair",
+      "No. of Lanes": 2,
+      "Last Maintenance Date": "2024-11-18T00:00:00"
+    }
+  ]
+}

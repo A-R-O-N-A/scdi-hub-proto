@@ -1,0 +1,42 @@
+{
+  "filename": "businessTaxCollection.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Permit ID",
+    "Business ID",
+    "Application Date",
+    "Permit Type",
+    "Processing Days",
+    "Renewal Status",
+    "Approval Status"
+  ],
+  "column_types": {
+    "Permit ID": "categorical",
+    "Business ID": "categorical",
+    "Application Date": "datetime",
+    "Permit Type": "categorical",
+    "Processing Days": "numerical",
+    "Renewal Status": "categorical",
+    "Approval Status": "categorical"
+  },
+  "data": [
+    {
+      "Permit ID": "P001",
+      "Business ID": "B001",
+      "Application Date": "2026-01-05T00:00:00",
+      "Permit Type": "Renewal",
+      "Processing Days": 3,
+      "Renewal Status": "Renewed",
+      "Approval Status": "Approved"
+    },
+    {
+      "Permit ID": "P002",
+      "Business ID": "B002",
+      "Application Date": "2026-02-10T00:00:00",
+      "Permit Type": "New",
+      "Processing Days": 5,
+      "Renewal Status": null,
+      "Approval Status": "Approved"
+    }
+  ]
+}

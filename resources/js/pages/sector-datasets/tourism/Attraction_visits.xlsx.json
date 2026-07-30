@@ -1,0 +1,42 @@
+{
+  "filename": "Attraction_visits.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Visit ID",
+    "Tourist ID",
+    "Attraction",
+    "Date",
+    "Time",
+    "Entrance Fee",
+    "Rating"
+  ],
+  "column_types": {
+    "Visit ID": "categorical",
+    "Tourist ID": "datetime",
+    "Attraction": "categorical",
+    "Date": "datetime",
+    "Time": "datetime",
+    "Entrance Fee": "numerical",
+    "Rating": "numerical"
+  },
+  "data": [
+    {
+      "Visit ID": "V001",
+      "Tourist ID": "T001",
+      "Attraction": "CLSU Botanical Garden",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "10:00:00",
+      "Entrance Fee": 0,
+      "Rating": 5
+    },
+    {
+      "Visit ID": "V002",
+      "Tourist ID": "T001",
+      "Attraction": "Philippine Carabao Center",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "14:00:00",
+      "Entrance Fee": 50,
+      "Rating": 4
+    }
+  ]
+}

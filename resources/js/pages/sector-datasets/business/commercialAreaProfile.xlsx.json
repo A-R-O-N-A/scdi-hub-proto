@@ -1,0 +1,42 @@
+{
+  "filename": "commercialAreaProfile.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Project ID",
+    "Barangay",
+    "Industry",
+    "Investment Amount",
+    "Project Status",
+    "Expected Jobs",
+    "Start Date"
+  ],
+  "column_types": {
+    "Project ID": "categorical",
+    "Barangay": "categorical",
+    "Industry": "categorical",
+    "Investment Amount": "numerical",
+    "Project Status": "categorical",
+    "Expected Jobs": "numerical",
+    "Start Date": "datetime"
+  },
+  "data": [
+    {
+      "Project ID": "I001",
+      "Barangay": "Poblacion East",
+      "Industry": "Manufacturing",
+      "Investment Amount": 15000000,
+      "Project Status": "Ongoing",
+      "Expected Jobs": 60,
+      "Start Date": "2026-03-01T00:00:00"
+    },
+    {
+      "Project ID": "I002",
+      "Barangay": "Bagong Sikat",
+      "Industry": "Retail",
+      "Investment Amount": 3500000,
+      "Project Status": "Completed",
+      "Expected Jobs": 18,
+      "Start Date": "2026-01-15T00:00:00"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "barangay_disease.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Case ID",
+    "Date",
+    "Barangay",
+    "Disease",
+    "Cases"
+  ],
+  "column_types": {
+    "Case ID": "categorical",
+    "Date": "datetime",
+    "Barangay": "categorical",
+    "Disease": "categorical",
+    "Cases": "numerical"
+  },
+  "data": [
+    {
+      "Case ID": "C001",
+      "Date": "2026-07-01T00:00:00",
+      "Barangay": "Bantug",
+      "Disease": "Dengue",
+      "Cases": 6
+    },
+    {
+      "Case ID": "C002",
+      "Date": "2026-07-01T00:00:00",
+      "Barangay": "Bagong Sikat",
+      "Disease": "Influenza",
+      "Cases": 12
+    }
+  ]
+}

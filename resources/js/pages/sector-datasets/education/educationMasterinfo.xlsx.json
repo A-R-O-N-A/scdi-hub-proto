@@ -1,0 +1,42 @@
+{
+  "filename": "educationMasterinfo.xlsx",
+  "row_count": 2,
+  "columns": [
+    "School ID",
+    "School Name",
+    "School Level",
+    "Barangay",
+    "Enrollment Count",
+    "Number of Teachers",
+    "Number of Classrooms"
+  ],
+  "column_types": {
+    "School ID": "categorical",
+    "School Name": "categorical",
+    "School Level": "categorical",
+    "Barangay": "categorical",
+    "Enrollment Count": "numerical",
+    "Number of Teachers": "numerical",
+    "Number of Classrooms": "numerical"
+  },
+  "data": [
+    {
+      "School ID": "S001",
+      "School Name": "Muñoz Central School",
+      "School Level": "Elementary",
+      "Barangay": "Poblacion East",
+      "Enrollment Count": 1250,
+      "Number of Teachers": 45,
+      "Number of Classrooms": 38
+    },
+    {
+      "School ID": "S002",
+      "School Name": "Muñoz National High School",
+      "School Level": "Secondary",
+      "Barangay": "Poblacion West",
+      "Enrollment Count": 1980,
+      "Number of Teachers": 72,
+      "Number of Classrooms": 55
+    }
+  ]
+}

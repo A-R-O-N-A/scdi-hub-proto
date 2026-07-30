@@ -1,0 +1,46 @@
+{
+  "filename": "ENRWeatherData.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Record ID",
+    "Barangay/Station",
+    "Date",
+    "Rainfall (mm)",
+    "Temperature",
+    "Humidity",
+    "Wind Speed",
+    "Flood Risk Level"
+  ],
+  "column_types": {
+    "Record ID": "categorical",
+    "Barangay/Station": "categorical",
+    "Date": "datetime",
+    "Rainfall (mm)": "numerical",
+    "Temperature": "numerical",
+    "Humidity": "numerical",
+    "Wind Speed": "categorical",
+    "Flood Risk Level": "categorical"
+  },
+  "data": [
+    {
+      "Record ID": "WC001",
+      "Barangay/Station": "Bantug",
+      "Date": "2026-07-01T00:00:00",
+      "Rainfall (mm)": 15,
+      "Temperature": 30,
+      "Humidity": 0.78,
+      "Wind Speed": "12 kph",
+      "Flood Risk Level": "Low"
+    },
+    {
+      "Record ID": "WC002",
+      "Barangay/Station": "Bagong Sikat",
+      "Date": "2026-07-01T00:00:00",
+      "Rainfall (mm)": 42,
+      "Temperature": 28,
+      "Humidity": 0.85,
+      "Wind Speed": "18 kph",
+      "Flood Risk Level": "Moderate"
+    }
+  ]
+}

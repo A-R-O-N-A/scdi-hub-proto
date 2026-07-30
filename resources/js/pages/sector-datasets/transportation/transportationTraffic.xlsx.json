@@ -1,0 +1,46 @@
+{
+  "filename": "transportationTraffic.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Road Segment",
+    "Date",
+    "Time",
+    "Vehicle Count",
+    "Vehicle Type",
+    "Congestion Level",
+    "Road Condition",
+    "Weather"
+  ],
+  "column_types": {
+    "Road Segment": "categorical",
+    "Date": "datetime",
+    "Time": "datetime",
+    "Vehicle Count": "numerical",
+    "Vehicle Type": "categorical",
+    "Congestion Level": "categorical",
+    "Road Condition": "categorical",
+    "Weather": "categorical"
+  },
+  "data": [
+    {
+      "Road Segment": "Maharlika Hwy",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "08:00:00",
+      "Vehicle Count": 1245,
+      "Vehicle Type": "Mixed",
+      "Congestion Level": "High",
+      "Road Condition": "Good",
+      "Weather": "Clear"
+    },
+    {
+      "Road Segment": "Burgos St",
+      "Date": "2026-07-01T00:00:00",
+      "Time": "08:00:00",
+      "Vehicle Count": 356,
+      "Vehicle Type": "Tricycle",
+      "Congestion Level": "Medium",
+      "Road Condition": "Fair",
+      "Weather": "Cloudy"
+    }
+  ]
+}

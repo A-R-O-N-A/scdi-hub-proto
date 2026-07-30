@@ -1,0 +1,38 @@
+{
+  "filename": "residentialDevelopmentProjects.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Project Name",
+    "Barangay",
+    "Developer",
+    "Housing Type",
+    "No. of Units",
+    "Project Status"
+  ],
+  "column_types": {
+    "Project Name": "categorical",
+    "Barangay": "categorical",
+    "Developer": "categorical",
+    "Housing Type": "categorical",
+    "No. of Units": "numerical",
+    "Project Status": "categorical"
+  },
+  "data": [
+    {
+      "Project Name": "Green Meadows",
+      "Barangay": "Población West",
+      "Developer": "ABC Reality",
+      "Housing Type": "Subdivision",
+      "No. of Units": 150,
+      "Project Status": "Ongoing"
+    },
+    {
+      "Project Name": "Villa Munoz",
+      "Barangay": "Rang-ayan",
+      "Developer": "XYZ Homes",
+      "Housing Type": "Socialized Housing",
+      "No. of Units": 250,
+      "Project Status": "Completed"
+    }
+  ]
+}

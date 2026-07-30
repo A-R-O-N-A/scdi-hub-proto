@@ -1,0 +1,38 @@
+{
+  "filename": "ENRViolations.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Incident ID",
+    "Date",
+    "Barangay",
+    "Type",
+    "Status",
+    "Penalty Issued"
+  ],
+  "column_types": {
+    "Incident ID": "categorical",
+    "Date": "datetime",
+    "Barangay": "categorical",
+    "Type": "categorical",
+    "Status": "categorical",
+    "Penalty Issued": "numerical"
+  },
+  "data": [
+    {
+      "Incident ID": "EV001",
+      "Date": "2026-07-01T00:00:00",
+      "Barangay": "Bantug",
+      "Type": "Illegal Logging",
+      "Status": "Resolved",
+      "Penalty Issued": 5000
+    },
+    {
+      "Incident ID": "EV002",
+      "Date": "2026-07-02T00:00:00",
+      "Barangay": "Bagong Sikat",
+      "Type": "Water Pollution",
+      "Status": "Under Investigation",
+      "Penalty Issued": 6000
+    }
+  ]
+}

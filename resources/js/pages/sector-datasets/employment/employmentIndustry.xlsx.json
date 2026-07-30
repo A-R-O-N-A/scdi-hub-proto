@@ -1,0 +1,36 @@
+{
+  "filename": "employmentIndustry.xlsx",
+  "row_count": 3,
+  "columns": [
+    "Industry Sector",
+    "No. of Employees",
+    "Male",
+    "Female"
+  ],
+  "column_types": {
+    "Industry Sector": "categorical",
+    "No. of Employees": "numerical",
+    "Male": "numerical",
+    "Female": "numerical"
+  },
+  "data": [
+    {
+      "Industry Sector": "Agriculture",
+      "No. of Employees": 1250,
+      "Male": 800,
+      "Female": 450
+    },
+    {
+      "Industry Sector": "Manufacturing",
+      "No. of Employees": 780,
+      "Male": 500,
+      "Female": 280
+    },
+    {
+      "Industry Sector": "Retail and Trade",
+      "No. of Employees": 650,
+      "Male": 280,
+      "Female": 370
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "clinic_info.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Clinic ID",
+    "Address",
+    "Patient capacity",
+    "Name"
+  ],
+  "column_types": {
+    "Clinic ID": "categorical",
+    "Address": "categorical",
+    "Patient capacity": "numerical",
+    "Name": "categorical"
+  },
+  "data": [
+    {
+      "Clinic ID": "CL001",
+      "Address": "Bagong Sikat",
+      "Patient capacity": 10,
+      "Name": "Fernandez Health"
+    },
+    {
+      "Clinic ID": "CL001",
+      "Address": "Bantug",
+      "Patient capacity": 20,
+      "Name": "Health General"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "filename": "agriPestDisease.xlsx",
+  "row_count": 5,
+  "columns": [
+    "Incident ID",
+    "Date",
+    "Barangay",
+    "Crop Type",
+    "Pest/Disease",
+    "Severity",
+    "Crop Loss (%)"
+  ],
+  "column_types": {
+    "Incident ID": "categorical",
+    "Date": "datetime",
+    "Barangay": "categorical",
+    "Crop Type": "categorical",
+    "Pest/Disease": "categorical",
+    "Severity": "categorical",
+    "Crop Loss (%)": "numerical"
+  },
+  "data": [
+    {
+      "Incident ID": null,
+      "Date": null,
+      "Barangay": null,
+      "Crop Type": null,
+      "Pest/Disease": null,
+      "Severity": null,
+      "Crop Loss (%)": null
+    },
+    {
+      "Incident ID": "PD001",
+      "Date": "2026-07-01T00:00:00",
+      "Barangay": "Bantug",
+      "Crop Type": "Rice",
+      "Pest/Disease": "Rice Bug",
+      "Severity": "Moderate",
+      "Crop Loss (%)": 8
+    },
+    {
+      "Incident ID": null,
+      "Date": null,
+      "Barangay": null,
+      "Crop Type": null,
+      "Pest/Disease": null,
+      "Severity": null,
+      "Crop Loss (%)": null
+    },
+    {
+      "Incident ID": "PD002",
+      "Date": "2026-07-01T00:00:00",
+      "Barangay": "Bagong Sikat",
+      "Crop Type": "Onion",
+      "Pest/Disease": "Downy Mildew",
+      "Severity": "Severe",
+      "Crop Loss (%)": 20
+    },
+    {
+      "Incident ID": "PD003",
+      "Date": "2026-05-01T00:00:00",
+      "Barangay": "Bukang Liwayway",
+      "Crop Type": "Corn",
+      "Pest/Disease": "Armyworm",
+      "Severity": "Low",
+      "Crop Loss (%)": 5
+    }
+  ]
+}

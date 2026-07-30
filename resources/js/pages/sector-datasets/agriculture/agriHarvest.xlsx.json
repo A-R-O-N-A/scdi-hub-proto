@@ -1,0 +1,56 @@
+{
+  "filename": "agriHarvest.xlsx",
+  "row_count": 3,
+  "columns": [
+    "Harvest ID",
+    "Harvest Date",
+    "Barangay",
+    "Hectares",
+    "Crop Type",
+    "Crop Variety",
+    "Yield kilos",
+    "Price per kilo sold"
+  ],
+  "column_types": {
+    "Harvest ID": "categorical",
+    "Harvest Date": "datetime",
+    "Barangay": "categorical",
+    "Hectares": "numerical",
+    "Crop Type": "categorical",
+    "Crop Variety": "categorical",
+    "Yield kilos": "numerical",
+    "Price per kilo sold": "numerical"
+  },
+  "data": [
+    {
+      "Harvest ID": "H001",
+      "Harvest Date": "2026-07-01T00:00:00",
+      "Barangay": "Bantug",
+      "Hectares": 2,
+      "Crop Type": "Palay",
+      "Crop Variety": "SL-8",
+      "Yield kilos": 200,
+      "Price per kilo sold": 20
+    },
+    {
+      "Harvest ID": "H002",
+      "Harvest Date": "2026-07-01T00:00:00",
+      "Barangay": "Bagong Sikat",
+      "Hectares": 5,
+      "Crop Type": "Onion",
+      "Crop Variety": "Red Creole",
+      "Yield kilos": 300,
+      "Price per kilo sold": 70
+    },
+    {
+      "Harvest ID": "H003",
+      "Harvest Date": "2026-05-01T00:00:00",
+      "Barangay": "Bukang Liwayway",
+      "Hectares": 1,
+      "Crop Type": "Corn",
+      "Crop Variety": "Sweet Corn",
+      "Yield kilos": 100,
+      "Price per kilo sold": 100
+    }
+  ]
+}

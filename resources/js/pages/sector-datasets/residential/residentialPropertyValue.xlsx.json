@@ -1,0 +1,34 @@
+{
+  "filename": "residentialPropertyValue.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Barangay",
+    "No. of Residential properties",
+    "Assessed Value",
+    "Market Value",
+    "Tax Declaration"
+  ],
+  "column_types": {
+    "Barangay": "categorical",
+    "No. of Residential properties": "numerical",
+    "Assessed Value": "numerical",
+    "Market Value": "numerical",
+    "Tax Declaration": "categorical"
+  },
+  "data": [
+    {
+      "Barangay": "Catalanacan",
+      "No. of Residential properties": 1250,
+      "Assessed Value": 250000000,
+      "Market Value": 420000000,
+      "Tax Declaration": "Updated"
+    },
+    {
+      "Barangay": "Villa Isla",
+      "No. of Residential properties": 820,
+      "Assessed Value": 180000000,
+      "Market Value": 310000000,
+      "Tax Declaration": "Updated"
+    }
+  ]
+}

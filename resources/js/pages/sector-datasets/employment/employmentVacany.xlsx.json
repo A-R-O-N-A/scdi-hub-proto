@@ -1,0 +1,42 @@
+{
+  "filename": "employmentVacany.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Vacancy ID",
+    "Company",
+    "Industry",
+    "Position",
+    "No. of Vacancies",
+    "Employment Type",
+    "Dated Posted"
+  ],
+  "column_types": {
+    "Vacancy ID": "categorical",
+    "Company": "categorical",
+    "Industry": "categorical",
+    "Position": "categorical",
+    "No. of Vacancies": "numerical",
+    "Employment Type": "categorical",
+    "Dated Posted": "datetime"
+  },
+  "data": [
+    {
+      "Vacancy ID": "V001",
+      "Company": "Friendship Inc.",
+      "Industry": "Retail Industry",
+      "Position": "Bagger",
+      "No. of Vacancies": 20,
+      "Employment Type": "Full-time",
+      "Dated Posted": "2026-07-01T00:00:00"
+    },
+    {
+      "Vacancy ID": "V002",
+      "Company": "Butterland ",
+      "Industry": "Retail and Artisanal",
+      "Position": "Cashier",
+      "No. of Vacancies": 10,
+      "Employment Type": "Full-time",
+      "Dated Posted": "2026-07-05T00:00:00"
+    }
+  ]
+}

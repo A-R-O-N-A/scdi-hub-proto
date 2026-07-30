@@ -1,0 +1,34 @@
+{
+  "filename": "employmentPrograms.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Program Name",
+    "Training Provider",
+    "No. of Participants",
+    "No. of Employment",
+    "Completion Date"
+  ],
+  "column_types": {
+    "Program Name": "categorical",
+    "Training Provider": "categorical",
+    "No. of Participants": "numerical",
+    "No. of Employment": "numerical",
+    "Completion Date": "datetime"
+  },
+  "data": [
+    {
+      "Program Name": "Job Readiness Training",
+      "Training Provider": "PESO",
+      "No. of Participants": 120,
+      "No. of Employment": 80,
+      "Completion Date": "2026-06-30T00:00:00"
+    },
+    {
+      "Program Name": "Livelihood Skills Training",
+      "Training Provider": "TESDA",
+      "No. of Participants": 90,
+      "No. of Employment": 55,
+      "Completion Date": "2026-07-15T00:00:00"
+    }
+  ]
+}

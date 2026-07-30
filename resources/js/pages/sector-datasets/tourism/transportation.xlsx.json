@@ -1,0 +1,30 @@
+{
+  "filename": "transportation.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Tourist ID",
+    "Transport Used",
+    "Fare",
+    "Origin"
+  ],
+  "column_types": {
+    "Tourist ID": "datetime",
+    "Transport Used": "categorical",
+    "Fare": "numerical",
+    "Origin": "categorical"
+  },
+  "data": [
+    {
+      "Tourist ID": "T001",
+      "Transport Used": "Tricycle",
+      "Fare": 80,
+      "Origin": "Bus Terminal"
+    },
+    {
+      "Tourist ID": "T002",
+      "Transport Used": "Taxi",
+      "Fare": 250,
+      "Origin": "Hotel"
+    }
+  ]
+}

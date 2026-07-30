@@ -1,0 +1,30 @@
+{
+  "filename": "local_business_spending.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Tourist ID",
+    "Business Type",
+    "Amount",
+    "Payment Method"
+  ],
+  "column_types": {
+    "Tourist ID": "datetime",
+    "Business Type": "categorical",
+    "Amount": "numerical",
+    "Payment Method": "categorical"
+  },
+  "data": [
+    {
+      "Tourist ID": "T001",
+      "Business Type": "Restaurant",
+      "Amount": 850,
+      "Payment Method": "Cash"
+    },
+    {
+      "Tourist ID": "T001",
+      "Business Type": "Souvenir Shop",
+      "Amount": 600,
+      "Payment Method": "GCash"
+    }
+  ]
+}

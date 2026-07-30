@@ -1,0 +1,34 @@
+{
+  "filename": "barangay_info.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Barangay ID",
+    "Patient Count 2026",
+    "Name",
+    "Health Budget 2026",
+    "Clinic count"
+  ],
+  "column_types": {
+    "Barangay ID": "categorical",
+    "Patient Count 2026": "numerical",
+    "Name": "categorical",
+    "Health Budget 2026": "numerical",
+    "Clinic count": "numerical"
+  },
+  "data": [
+    {
+      "Barangay ID": "B001",
+      "Patient Count 2026": 150,
+      "Name": "Bantug",
+      "Health Budget 2026": 100000,
+      "Clinic count": 5
+    },
+    {
+      "Barangay ID": "B002",
+      "Patient Count 2026": 200,
+      "Name": "Bagong Sikat",
+      "Health Budget 2026": 250000,
+      "Clinic count": 3
+    }
+  ]
+}

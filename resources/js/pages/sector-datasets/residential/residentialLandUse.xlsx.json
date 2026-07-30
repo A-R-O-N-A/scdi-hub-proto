@@ -1,0 +1,38 @@
+{
+  "filename": "residentialLandUse.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Barangay",
+    "Residential (ha)",
+    "Commercial (ha)",
+    "Industrial (ha)",
+    "Agricultural (ha)",
+    "Institutional (ha)"
+  ],
+  "column_types": {
+    "Barangay": "categorical",
+    "Residential (ha)": "numerical",
+    "Commercial (ha)": "numerical",
+    "Industrial (ha)": "numerical",
+    "Agricultural (ha)": "numerical",
+    "Institutional (ha)": "numerical"
+  },
+  "data": [
+    {
+      "Barangay": "Bagong Sikat",
+      "Residential (ha)": 120,
+      "Commercial (ha)": 15,
+      "Industrial (ha)": 5,
+      "Agricultural (ha)": 340,
+      "Institutional (ha)": 8
+    },
+    {
+      "Barangay": "Pandalla",
+      "Residential (ha)": 98,
+      "Commercial (ha)": 12,
+      "Industrial (ha)": 3,
+      "Agricultural (ha)": 410,
+      "Institutional (ha)": 6
+    }
+  ]
+}

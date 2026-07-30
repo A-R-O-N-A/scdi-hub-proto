@@ -1,0 +1,54 @@
+{
+  "filename": "tourist_info.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Tourist ID",
+    "Date",
+    "Province/Country",
+    "Age",
+    "Gender",
+    "Purpose of Visit",
+    "Number of Companions",
+    "Length of Stay",
+    "Accommodation",
+    "Estimated Spending"
+  ],
+  "column_types": {
+    "Tourist ID": "datetime",
+    "Date": "datetime",
+    "Province/Country": "categorical",
+    "Age": "numerical",
+    "Gender": "categorical",
+    "Purpose of Visit": "categorical",
+    "Number of Companions": "numerical",
+    "Length of Stay": "numerical",
+    "Accommodation": "categorical",
+    "Estimated Spending": "numerical"
+  },
+  "data": [
+    {
+      "Tourist ID": "T001",
+      "Date": "2026-07-01T00:00:00",
+      "Province/Country": "Nueva Ecija",
+      "Age": 28,
+      "Gender": "Female",
+      "Purpose of Visit": "Leisure",
+      "Number of Companions": 2,
+      "Length of Stay": 1,
+      "Accommodation": "Hotel",
+      "Estimated Spending": 2500
+    },
+    {
+      "Tourist ID": "T002",
+      "Date": "2026-07-01T00:00:00",
+      "Province/Country": "Bulacan",
+      "Age": 35,
+      "Gender": "Male",
+      "Purpose of Visit": "Business",
+      "Number of Companions": 1,
+      "Length of Stay": 2,
+      "Accommodation": "Hotel",
+      "Estimated Spending": 4800
+    }
+  ]
+}

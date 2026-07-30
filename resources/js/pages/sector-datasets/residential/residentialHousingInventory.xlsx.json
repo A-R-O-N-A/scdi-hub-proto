@@ -1,0 +1,38 @@
+{
+  "filename": "residentialHousingInventory.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Barangay",
+    "Land Use Type",
+    "Lot Size (sq.m.)",
+    "Housing Type",
+    "No. Housing Units",
+    "Occupancy Status"
+  ],
+  "column_types": {
+    "Barangay": "categorical",
+    "Land Use Type": "categorical",
+    "Lot Size (sq.m.)": "numerical",
+    "Housing Type": "categorical",
+    "No. Housing Units": "numerical",
+    "Occupancy Status": "categorical"
+  },
+  "data": [
+    {
+      "Barangay": "Bagong Sikat",
+      "Land Use Type": "Residential",
+      "Lot Size (sq.m.)": 150,
+      "Housing Type": "Single Detached",
+      "No. Housing Units": 1,
+      "Occupancy Status": "Occupied"
+    },
+    {
+      "Barangay": "Poblacion East",
+      "Land Use Type": "Residential",
+      "Lot Size (sq.m.)": 320,
+      "Housing Type": "Apartment",
+      "No. Housing Units": 8,
+      "Occupancy Status": "Occupied"
+    }
+  ]
+}

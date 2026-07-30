@@ -1,0 +1,34 @@
+{
+  "filename": "barangay_vacc.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Case ID",
+    "Barangay",
+    "Population",
+    "Vaccine Type",
+    "Administered Doses"
+  ],
+  "column_types": {
+    "Case ID": "categorical",
+    "Barangay": "categorical",
+    "Population": "numerical",
+    "Vaccine Type": "categorical",
+    "Administered Doses": "numerical"
+  },
+  "data": [
+    {
+      "Case ID": "VB001",
+      "Barangay": "Bantug",
+      "Population": 6500,
+      "Vaccine Type": "Dengue",
+      "Administered Doses": 5000
+    },
+    {
+      "Case ID": "VB002",
+      "Barangay": "Bagong Sikat",
+      "Population": 4500,
+      "Vaccine Type": "Measles",
+      "Administered Doses": 4000
+    }
+  ]
+}

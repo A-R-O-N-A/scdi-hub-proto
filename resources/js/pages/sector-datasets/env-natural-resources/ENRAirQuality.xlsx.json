@@ -1,0 +1,46 @@
+{
+  "filename": "ENRAirQuality.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Sample ID",
+    "Record ID",
+    "Barangay",
+    "Date",
+    "PM2.5",
+    "PM10",
+    "CO Level",
+    "SO2/NO2"
+  ],
+  "column_types": {
+    "Sample ID": "categorical",
+    "Record ID": "categorical",
+    "Barangay": "categorical",
+    "Date": "datetime",
+    "PM2.5": "numerical",
+    "PM10": "numerical",
+    "CO Level": "numerical",
+    "SO2/NO2": "numerical"
+  },
+  "data": [
+    {
+      "Sample ID": "AQ001",
+      "Record ID": "EM001",
+      "Barangay": "Barangay X",
+      "Date": "2026-07-01T00:00:00",
+      "PM2.5": 18,
+      "PM10": 35,
+      "CO Level": 0.5,
+      "SO2/NO2": 0.02
+    },
+    {
+      "Sample ID": "AQ002",
+      "Record ID": "EM002",
+      "Barangay": "Barangay Y",
+      "Date": "2026-07-01T00:00:00",
+      "PM2.5": 24,
+      "PM10": 42,
+      "CO Level": 0.7,
+      "SO2/NO2": 0.03
+    }
+  ]
+}

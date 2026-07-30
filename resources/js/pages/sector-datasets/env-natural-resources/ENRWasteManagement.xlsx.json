@@ -1,0 +1,38 @@
+{
+  "filename": "ENRWasteManagement.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Collection ID",
+    "Barangay",
+    "Waste Type",
+    "Collection Date",
+    "Volume Collected (kg)",
+    "Disposal Site"
+  ],
+  "column_types": {
+    "Collection ID": "categorical",
+    "Barangay": "categorical",
+    "Waste Type": "categorical",
+    "Collection Date": "datetime",
+    "Volume Collected (kg)": "numerical",
+    "Disposal Site": "categorical"
+  },
+  "data": [
+    {
+      "Collection ID": "WM001",
+      "Barangay": "Bantug",
+      "Waste Type": "Biodegradable",
+      "Collection Date": "2026-07-01T00:00:00",
+      "Volume Collected (kg)": 320,
+      "Disposal Site": "Sanitary Landfill A"
+    },
+    {
+      "Collection ID": "WM002",
+      "Barangay": "Bagong Sikat",
+      "Waste Type": "Recyclable",
+      "Collection Date": "2026-07-01T00:00:00",
+      "Volume Collected (kg)": 150,
+      "Disposal Site": "Materials Recovery Facility"
+    }
+  ]
+}

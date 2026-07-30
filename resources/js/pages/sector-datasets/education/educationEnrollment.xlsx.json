@@ -1,0 +1,38 @@
+{
+  "filename": "educationEnrollment.xlsx",
+  "row_count": 2,
+  "columns": [
+    "School ID",
+    "Academic Year",
+    "Grade Level",
+    "Male Enrollment",
+    "Female Enrollment",
+    "Total Enrollment"
+  ],
+  "column_types": {
+    "School ID": "categorical",
+    "Academic Year": "categorical",
+    "Grade Level": "categorical",
+    "Male Enrollment": "numerical",
+    "Female Enrollment": "numerical",
+    "Total Enrollment": "numerical"
+  },
+  "data": [
+    {
+      "School ID": "S001",
+      "Academic Year": "2026–2027",
+      "Grade Level": "Grade 1",
+      "Male Enrollment": 58,
+      "Female Enrollment": 62,
+      "Total Enrollment": 120
+    },
+    {
+      "School ID": "S002",
+      "Academic Year": "2026–2027",
+      "Grade Level": "Grade 7",
+      "Male Enrollment": 165,
+      "Female Enrollment": 170,
+      "Total Enrollment": 335
+    }
+  ]
+}

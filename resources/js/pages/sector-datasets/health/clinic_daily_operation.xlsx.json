@@ -1,0 +1,34 @@
+{
+  "filename": "clinic_daily_operation.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Clinic  ID",
+    "Clinic",
+    "Barangay",
+    "Patients served",
+    "Emergency cases"
+  ],
+  "column_types": {
+    "Clinic  ID": "categorical",
+    "Clinic": "categorical",
+    "Barangay": "categorical",
+    "Patients served": "numerical",
+    "Emergency cases": "numerical"
+  },
+  "data": [
+    {
+      "Clinic  ID": "CD001",
+      "Clinic": "Fernandez Health",
+      "Barangay": "Bagong Sikat",
+      "Patients served": 58,
+      "Emergency cases": 2
+    },
+    {
+      "Clinic  ID": "CD002",
+      "Clinic": "Health General",
+      "Barangay": "Bantug",
+      "Patients served": 20,
+      "Emergency cases": 4
+    }
+  ]
+}

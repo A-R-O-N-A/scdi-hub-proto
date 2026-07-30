@@ -1,0 +1,34 @@
+{
+  "filename": "educationTeacherInfo.xlsx",
+  "row_count": 2,
+  "columns": [
+    "Teacher ID",
+    "School ID",
+    "Employment Type",
+    "Subject Specialization",
+    "Teaching Load (Hours/Week)"
+  ],
+  "column_types": {
+    "Teacher ID": "datetime",
+    "School ID": "categorical",
+    "Employment Type": "categorical",
+    "Subject Specialization": "categorical",
+    "Teaching Load (Hours/Week)": "numerical"
+  },
+  "data": [
+    {
+      "Teacher ID": "T001",
+      "School ID": "S001",
+      "Employment Type": "Permanent",
+      "Subject Specialization": "Mathematics",
+      "Teaching Load (Hours/Week)": 24
+    },
+    {
+      "Teacher ID": "T002",
+      "School ID": "S002",
+      "Employment Type": "Permanent",
+      "Subject Specialization": "Science",
+      "Teaching Load (Hours/Week)": 26
+    }
+  ]
+}
