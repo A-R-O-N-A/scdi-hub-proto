@@ -16,6 +16,8 @@ import {
 import { dashboard } from '@/routes';
 import type { NavItem } from '@/types';
 
+import { Leaf, BriefcaseBusiness,  GraduationCap, FileUser, Earth, HeartPulse, House, Binoculars, Car} from 'lucide-react';
+ 
 const mainNavItems: NavItem[] = [
 
     // {
@@ -27,66 +29,66 @@ const mainNavItems: NavItem[] = [
     {
         title: 'Agriculture',
         href: '/demo/agriculture',
-        icon: LayoutGrid,
+        icon: Leaf,
     },
     {
         title: 'Business',
         href: '/demo/business',
-        icon: LayoutGrid,
+        icon: BriefcaseBusiness,
     },
     {
         title: 'Education',
         href: '/demo/education',
-        icon: LayoutGrid,
+        icon: GraduationCap,
     },
 
     {
         title: 'Employment',
         href: '/demo/employment',
-        icon: LayoutGrid,
+        icon: FileUser,
     },
 
     {
         title: 'Environment and Natural Resources',
         href: '/demo/environment-resources',
-        icon: LayoutGrid,
+        icon: Earth,
     },
 
     {
         title: 'Health',
         href: '/demo/health',
-        icon: LayoutGrid,
+        icon: HeartPulse,
     },
     {
         title: 'Residential',
         href: '/demo/residential',
-        icon: LayoutGrid,
+        icon: House,
     },
 
     {
         title: 'Tourism',
         href: '/demo/tourism',
-        icon: LayoutGrid,
+        icon: Binoculars,
     },
 
     {
         title: 'Transportation',
         href: '/demo/transportation',
-        icon: LayoutGrid,
+        icon: Car,
     },    
 ];
 
 const footerNavItems: NavItem[] = [
-    {
-        title: 'Repository',
-        href: 'https://github.com/laravel/react-starter-kit',
-        icon: FolderGit2,
-    },
-    {
-        title: 'Documentation',
-        href: 'https://laravel.com/docs/starter-kits#react',
-        icon: BookOpen,
-    },
+    // {
+    //     title: 'Repository',
+    //     href: 'https://github.com/laravel/react-starter-kit',
+    //     icon: FolderGit2,
+    // },
+    // {
+    //     title: 'Documentation',
+    //     href: 'https://laravel.com/docs/starter-kits#react',
+    //     icon: BookOpen,
+    // },
 ];
 
 export function AppSidebar() {
@@ -97,7 +99,8 @@ export function AppSidebar() {
                     <SidebarMenuItem>
                         <SidebarMenuButton size="lg" asChild>
                             <Link href={dashboard()} prefetch>
-                                <AppLogo />
+                                {/* <AppLogo /> */}
+                                <h1>SCDI Hub</h1>
                             </Link>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
@@ -110,7 +113,7 @@ export function AppSidebar() {
 
             <SidebarFooter>
                 <NavFooter items={footerNavItems} className="mt-auto" />
-                <NavUser />
+                {/* <NavUser /> */}
             </SidebarFooter>
         </Sidebar>
     );
