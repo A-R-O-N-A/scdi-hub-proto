@@ -12,6 +12,24 @@ export default function EnvironmentResources() {
             <Head title="Environment and Natural Resources" />
 
             <div className="flex h-full flex-1 flex-col gap-6 rounded-xl p-4">
+
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground">Highest CO Level</p>
+                        <p className="mt-2 text-3xl font-bold"> 0.7 </p>
+                    </Card>
+
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground"> Lowest Air Quality </p>
+                        <p className="mt-2 text-3xl font-bold"> 45 </p>
+                    </Card>
+
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground"> Lowest Water Quality </p>
+                        <p className="mt-2 text-3xl font-bold"> 75 </p>
+                    </Card>
+                </div>
+
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
                     <Card className="p-4 xl:col-span-6">
                         <BarPlot

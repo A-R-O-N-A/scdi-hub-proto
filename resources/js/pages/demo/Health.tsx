@@ -17,6 +17,23 @@ export default function Health() {
             <Head title="Health" />
 
             <div className="flex h-full flex-1 flex-col gap-6 rounded-xl p-4">
+
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground"> Most Common Disease </p>
+                        <p className="mt-2 text-3xl font-bold"> Dengue </p>
+                    </Card>
+
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground"> Total Health Workers </p>
+                        <p className="mt-2 text-3xl font-bold"> 15 </p>
+                    </Card>
+
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground"> Total Clinics </p>
+                        <p className="mt-2 text-3xl font-bold"> 2 </p>
+                    </Card>
+                </div>
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
 
                     <Card className='p-4 xl:col-span-12'>

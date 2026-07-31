@@ -13,6 +13,24 @@ export default function Agriculture() {
             <Head title="Agriculture" />
 
             <div className="flex h-full flex-1 flex-col gap-6 rounded-xl p-4">
+
+
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground">Total Hectares</p>
+                        <p className="mt-2 text-3xl font-bold"> 8 </p>
+                    </Card>
+
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground">Total Yield in Kilos</p>
+                        <p className="mt-2 text-3xl font-bold"> 120000 </p>
+                    </Card>
+
+                    <Card className="p-5">
+                        <p className="text-sm text-muted-foreground">Total Fertilizer Used</p>
+                        <p className="mt-2 text-3xl font-bold"> 160 kg</p>
+                    </Card>
+                </div>
                 <div className="grid grid-cols-1 gap-4 xl:grid-cols-12">
                     <Card className="p-4 xl:col-span-6">
                         <BarPlot
